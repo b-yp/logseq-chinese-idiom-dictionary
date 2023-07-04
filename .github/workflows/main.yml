@@ -3,7 +3,7 @@
 name: Releases
 
 env:
-  PLUGIN_NAME: logseq-chinese-idioms
+  PLUGIN_NAME: logseq-chinese-idiom-dictionary
 
 # Controls when the action will run.
 on:

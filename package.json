@@ -1,5 +1,5 @@
 {
-  "name": "logseq-chinese-idioms",
+  "name": "logseq-chinese-idiom-dictionary",
   "version": "0.0.1",
   "main": "dist/index.html",
   "scripts": {
@@ -28,7 +28,7 @@
     "vite-plugin-logseq": "1.1.2"
   },
   "logseq": {
-    "id": "byp-logseq-chinese-idioms",
+    "id": "byp-logseq-chinese-idiom-dictionary",
     "icon": "./logo.svg"
   }
 }

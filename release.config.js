@@ -20,13 +20,13 @@ module.exports = {
       "@semantic-release/exec",
       {
         prepareCmd:
-          "zip -qq -r logseq-chinese-idioms-${nextRelease.version}.zip dist readme.md logo.svg LICENSE package.json",
+          "zip -qq -r logseq-chinese-idiom-dictionary-${nextRelease.version}.zip dist readme.md logo.svg LICENSE package.json",
       },
     ],
     [
       "@semantic-release/github",
       {
-        assets: "logseq-chinese-idioms-*.zip",
+        assets: "logseq-chinese-idiom-dictionary-*.zip",
       },
     ],
   ],
