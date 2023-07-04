@@ -3,11 +3,14 @@ import "@logseq/libs";
 import { logseq as PL } from "../package.json";
 
 import { api } from "./api";
+import { settings } from "./settings";
 
 const pluginId = PL.id;
 
 function main() {
   console.info(`#${pluginId}: MAIN`);
+
+  logseq.useSettingsSchema(settings)
 
   const handleInsertIdiomDictionary = async () => {
     const page = await logseq.Editor.getCurrentPage()

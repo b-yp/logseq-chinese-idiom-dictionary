@@ -10,7 +10,7 @@ const options: RequestInit = {
 const apiBaseUrl = 'http://apis.juhe.cn'
 
 // 每天只有 50 次免费调用
-const API_KEY = '693e8050c9d18b06775f99bc5470bfb5'
+const API_KEY = logseq.settings?.['idiomApiKey'] || '693e8050c9d18b06775f99bc5470bfb5'
 
 const fetchFn = async <T>(url: string, params?: string) =>
   new Promise<T>((resolve, reject) => {
